@@ -3,9 +3,9 @@ import pandas as pd
 from datetime import datetime
 
 # ===== 1. Đọc file =====
-file_now  = "/Users/letranbaophuoc/Downloads/WEB/data.xlsx"   # dữ liệu tháng hiện tại (không có cột Ngày)
-file_old  = "/Users/letranbaophuoc/Downloads/WEB/data3.xlsx"  # dữ liệu tổng 3 tháng trước
-file_nh   = "/Users/letranbaophuoc/Downloads/WEB/nh.xlsx"     # mapping ngành hàng -> nhóm
+file_now  = "data.xlsx"   # dữ liệu tháng hiện tại (không có cột Ngày)
+file_old  = "data3.xlsx"  # dữ liệu tổng 3 tháng trước
+file_nh   = "WEB/nh.xlsx"     # mapping ngành hàng -> nhóm
 
 df_now = pd.read_excel(file_now)
 df_old = pd.read_excel(file_old)
